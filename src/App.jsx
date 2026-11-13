@@ -8,6 +8,7 @@ import Deserts from './pages/Deserts';
 import About from './pages/About';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import Footer from './companents/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
            <Route path='/more' element={<Deserts />} />
            <Route path='/cake' element={<Cakes />} />
         </Routes>
+        <Footer/>
     </BrowserRouter>
     </>
   )

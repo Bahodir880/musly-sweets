@@ -15,50 +15,58 @@ import { Link, } from 'react-router-dom'
 const Home = () => {
   return (
     <div className="min-h-screen bg-white px-5 pt-6">
+      <div className='bg-pink-900 text-white p-10 rounded-3xl'>
+        <div>
+          <h1 className='text-3xl font-bold'>Mazali tortlar va nafis <br /> art desertlar!</h1>
+          <br />
+          <p className='text-2xl '>Har bir shirinligimiz mehr va mahorat bilan <br /> tayyorlanadi. Siz uchun betakror dizayn tabiiy <br /> masaliqlar va unitilmas ta'mni birlashtiramiz </p>
+          <br />
+          <a className='px-7 py-4 rounded-xl  bg-white w-{300px} text-pink-900 font-bold' href="https://www.instagram.com/musly_sweets?utm_source=ig_web_button_share_sheet&exln=ZDNlZDc0MzIxNw==">Instagram</a>
+        </div>
+      </div>
+      <div className="mb-8 flex items-center gap-4">
+        <div className="h-[2px] flex-1 bg-[#e8ad55]"></div>
+        <h2 className="whitespace-nowrap text-2xl font-semibold text-black md:text-3xl">
+          Art Desertlar
+        </h2>
+        <div className="h-[2px] flex-1 bg-[#e8ad55]"></div>
+      </div>
 
-        <div className="mb-8 flex items-center gap-4">
-          <div className="h-[2px] flex-1 bg-[#e8ad55]"></div>
-          <h2 className="whitespace-nowrap text-2xl font-semibold text-black md:text-3xl">
-            Art Desertlar
-          </h2>
-          <div className="h-[2px] flex-1 bg-[#e8ad55]"></div>
+      <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
+
+        <div className="group cursor-pointer">
+          <div className="aspect-square overflow-hidden rounded-[20px] bg-[#ffefd6]">
+            <img src={rasm2} alt="" className="h-full w-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:-translate-y-1" />
+          </div>
+          <div className='ml-4'>
+            <span className='text-[18px] text-black font-bold'>Narxi</span>
+            <h3 className=" text-xl font-bold text-pink-900">55 000 сум</h3>
+          </div>
+
+          <div className='bg-pink-200 rounded-2xl p-4 mt-4'>
+            <h3>Tarkibi</h3>
+            <p>Основа из нежнейшего чиза и из начинка из натуральной вишни покрытия из натурального Бельгийского шоколада</p>
+          </div>
         </div>
 
-        <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
-
-          <div className="group cursor-pointer">
-            <div className="aspect-square overflow-hidden rounded-[20px] bg-[#ffefd6]">
-              <img src={rasm2} alt="" className="h-full w-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:-translate-y-1" />
-            </div>
-            <div className='ml-4'>
-              <span className='text-[18px] text-black font-bold'>Narxi</span>
-              <h3 className=" text-xl font-bold text-pink-900">55 000 сум</h3>
-            </div>
-
-            <div className='bg-pink-200 rounded-2xl p-4 mt-4'>
-              <h3>Tarkibi</h3>
-              <p>Основа из нежнейшего чиза и из начинка из натуральной вишни покрытия из натурального Бельгийского шоколада</p>
-            </div>
+        <div className="group cursor-pointer">
+          <div className="aspect-square overflow-hidden rounded-[20px] bg-[#ffefd6]">
+            <img src={rasm3} alt="" className="h-full w-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:-translate-y-1" />
+          </div>
+          <div className='ml-4'>
+            <span className='text-[18px] text-black font-bold'>Narxi</span>
+            <h3 className=" text-xl font-bold text-pink-900">55000 сум</h3>
           </div>
 
-          <div className="group cursor-pointer">
-            <div className="aspect-square overflow-hidden rounded-[20px] bg-[#ffefd6]">
-              <img src={rasm3} alt="" className="h-full w-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:-translate-y-1" />
-            </div>
-            <div className='ml-4'>
-              <span className='text-[18px] text-black font-bold'>Narxi</span>
-              <h3 className=" text-xl font-bold text-pink-900">55000 сум</h3>
-            </div>
-
-            <div className='bg-pink-200 rounded-2xl p-4 mt-4'>
-              <h3>Tarkibi</h3>
-              <p>Основа из чиза начинка из натуральной голубики покрытия из бельгийского шоколада</p>
-            </div>
+          <div className='bg-pink-200 rounded-2xl p-4 mt-4'>
+            <h3>Tarkibi</h3>
+            <p>Основа из чиза начинка из натуральной голубики покрытия из бельгийского шоколада</p>
           </div>
+        </div>
 
-          <div className="group cursor-pointer">
-            <div className="aspect-square overflow-hidden rounded-[20px] bg-gray-100">
-              <img src={rasm4} alt="" className="h-full w-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:-translate-y-1" />
+        <div className="group cursor-pointer">
+          <div className="aspect-square overflow-hidden rounded-[20px] bg-gray-100">
+            <img src={rasm4} alt="" className="h-full w-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:-translate-y-1" />
           </div>
           <div className='ml-4'>
             <span className='text-[18px] text-black font-bold'>Narxi</span>
@@ -162,7 +170,7 @@ const Home = () => {
             <p>Пропитанный бискивит Нежнейший Марожный крем</p>
           </div>
 
-                  <Link to="/cake" className="group mx-auto flex w-[160px] items-center justify-center rounded-2xl border border-[#D4A64A] bg-pink-950 px-5 py-3 text-2xl font-bold text-white shadow-lg shadow-[#123C2F]/20 transition-all duration-300 hover:-translate-y-1 hover:border-[#F1CD79] hover:bg-pink-950 hover:text-[#F1CD79] hover:shadow-xl active:translate-y-0 mr-2 mt-4" >   Yana </Link>
+          <Link to="/cake" className="group mx-auto flex w-[160px] items-center justify-center rounded-2xl border border-[#D4A64A] bg-pink-950 px-5 py-3 text-2xl font-bold text-white shadow-lg shadow-[#123C2F]/20 transition-all duration-300 hover:-translate-y-1 hover:border-[#F1CD79] hover:bg-pink-950 hover:text-[#F1CD79] hover:shadow-xl active:translate-y-0 mr-2 mt-4" >   Yana </Link>
 
         </div>
 

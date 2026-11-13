@@ -130,8 +130,8 @@ const About = () => {
                     </div>
 
                 </div>
-
-                <div className="mt-16 text-center">
+            </div>
+             <div className="mt-16 text-center ">
                     <p className="text-xl font-bold text-pink-900 md:text-2xl">
                         Har bir desert — o‘ziga xos san’at asari!
                     </p>
@@ -139,14 +139,6 @@ const About = () => {
                         Shirin lahzalaringizni biz bilan yanada go‘zal qiling.
                     </p>
                 </div>
-
-
-
-
-
-
-
-            </div>
         </div>
     )
 }

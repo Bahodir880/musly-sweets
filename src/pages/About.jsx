@@ -4,26 +4,35 @@ import rasm25 from '../assets/rasm25.jpg'
 import rasm26 from '../assets/rasm26.jpg'
 import rasm27 from '../assets/rasm27.jpg'
 import rasm28 from '../assets/rasm28.jpg'
+import rasm35 from '../assets/rasm35.jpg'
+
 const About = () => {
     return (
         <div className="min-h-screen bg-[#fffaf8] px-4 py-10 md:px-10">
 
-            <div className="mx-auto mb-16 flex justify-center">
-                <p className="w-full max-w-[900px] rounded-4xl bg-pink-900 p-8 text-lg leading-8 text-white shadow-lg md:p-15 md:text-2xl">
-                    Art Dessert sovg'a to'plamlarining eng muhim jihatlaridan biri — ularning o'ziga xos dizaynidir. Shirinliklar ranglar uyg'unligi asosida tanlanib, atlas lentalar, dekorativ gullar, maxsus yozuvlar va nafis qadoqlar bilan bezatiladi. Har bir to'plam insonning didi, xohishi va sovg'a qilinadigan tadbirga mos ravishda tayyorlanishi mumkin.
+           
+<div className='bg-pink-900 text-white p-4 sm:p-6 md:p-10 rounded-3xl flex flex-col md:flex-row gap-6 md:gap-8'>
+    <div className='w-full md:w-1/2 mt-4 md:mt-10 lg:mt-20'>
+      <p className='text-lg sm:text-2xl md:text-3xl lg:text-4xl'>
+        Art Dessert sovg'a to'plamlarining eng muhim jihatlaridan biri — ularning o'ziga xos dizaynidir. Shirinliklar ranglar uyg'unligi asosida tanlanib, atlas lentalar, dekorativ gullar, maxsus yozuvlar va nafis qadoqlar bilan bezatiladi. Har bir to'plam insonning didi, xohishi va sovg'a qilinadigan tadbirga mos ravishda tayyorlanishi mumkin.
 
-                    Bunday shirinliklar tug'ilgan kun, yubiley, to'y, unashtiruv, nikoh marosimi, 8-mart, Yangi yil, Sevishganlar kuni va boshqa bayramlar uchun ajoyib sovg'a hisoblanadi. Shuningdek, Art Dessert to'plamlarini onajonlar, opa-singillar, do'stlar, ustozlar, hamkasblar va yaqin insonlarga sovg'a qilish mumkin.
-                </p>
-            </div>
+        Bunday shirinliklar tug'ilgan kun, yubiley, to'y, unashtiruv, nikoh marosimi, 8-mart, Yangi yil, Sevishganlar kuni va boshqa bayramlar uchun ajoyib sovg'a hisoblanadi. Shuningdek, Art Dessert to'plamlarini onajonlar, opa-singillar, do'stlar, ustozlar, hamkasblar va yaqin insonlarga sovg'a qilish mumkin.
+      </p>
+    </div>
+    <div className='w-full md:w-1/2'>
+      <img className='rounded-2xl w-full h-64 sm:h-96 md:h-full md:min-h-[450px] object-cover' src={rasm35} alt="" />
+    </div>
+</div>
+        
 
             <div className="mb-10 flex items-center gap-4">
-                <div className="h-[2px] flex-1 bg-[#e8ad55]"></div>
+                <div className="h-[2px] mt-10 flex-1 bg-[#e8ad55]"></div>
 
-                <h2 className="whitespace-nowrap text-2xl font-bold text-pink-900 md:text-3xl">
+                <h2 className="whitespace-nowrap mt-10 text-2xl font-bold text-pink-900 md:text-3xl">
                     Sovg'a uchun to'plamlar
                 </h2>
 
-                <div className="h-[2px] flex-1 bg-[#e8ad55]"></div>
+                <div className="h-[2px] mt-10 flex-1 bg-[#e8ad55]"></div>
             </div>
 
 

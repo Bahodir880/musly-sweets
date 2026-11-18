@@ -11,19 +11,28 @@ import rasm24 from '../assets/rasm24.jpg'
 import rasm29 from '../assets/rasm29.jpg'
 import rasm30 from '../assets/rasm30.jpg'
 import rasm31 from '../assets/rasm31.jpg'
+import rasm34 from '../assets/rasm34.jpg'
+
 const Cakes = () => {
     return (
 
 
         <div className="min-h-screen bg-[#fffaf8] px-4 py-10 md:px-10">
 
-            <div className="mx-auto mb-16 flex justify-center">
-                <p className="w-full max-w-[900px] rounded-4xl bg-pink-900 p-8 text-lg leading-8 text-white shadow-lg md:p-15 md:text-2xl">
-                    Tort — qandolatchilik mahsulotlarining eng mashhur va keng tarqalgan turlaridan biri hisoblanadi. U turli xil xamir, krem, meva, shokolad, yong‘oq va boshqa mahsulotlardan tayyorlanadi. Tortlar o‘zining mazali ta'mi, chiroyli ko‘rinishi, yumshoqligi va xushbo‘y hidi bilan ajralib turadi.
+            
+<div className='bg-pink-900 text-white p-4 sm:p-6 md:p-10 rounded-3xl flex flex-col md:flex-row gap-6 md:gap-8'>
+    <div className='w-full md:w-1/2 mt-4 md:mt-10 lg:mt-20'>
+      <p className='text-lg sm:text-2xl md:text-3xl lg:text-4xl'>
+        Tort — qandolatchilik mahsulotlarining eng mashhur va keng tarqalgan turlaridan biri hisoblanadi. U turli xil xamir, krem, meva, shokolad, yong‘oq va boshqa mahsulotlardan tayyorlanadi. Tortlar o‘zining mazali ta'mi, chiroyli ko‘rinishi, yumshoqligi va xushbo‘y hidi bilan ajralib turadi.
 
-                    Tortlar qandolatchilik sanoatining muhim va keng tarqalgan mahsulotlaridan biridir. Ularni tayyorlashda xomashyoni to‘g‘ri tanlash, xamir va krem tayyorlash texnologiyasiga rioya qilish, pishirish, bezash hamda saqlash qoidalarini bilish zarur. Tortlar insonlarning turli bayram va marosimlariga o‘zgacha ko‘rk bag‘ishlaydi. Qandolatchilik sohasining rivojlanishi natijasida tortlarning yangi turlari, ta'mlari va bezash usullari paydo bo‘lmoqda.
-                </p>
-            </div>
+        Tortlar qandolatchilik sanoatining muhim va keng tarqalgan mahsulotlaridan biridir. Ularni tayyorlashda xomashyoni to‘g‘ri tanlash, xamir va krem tayyorlash texnologiyasiga rioya qilish, pishirish, bezash hamda saqlash qoidalarini bilish zarur. Tortlar insonlarning turli bayram va marosimlariga o‘zgacha ko‘rk bag‘ishlaydi.
+      </p>
+    </div>
+    <div className='w-full md:w-1/2'>
+      <img className='rounded-2xl w-full h-64 sm:h-96 md:h-full md:min-h-[450px] object-cover' src={rasm34} alt="" />
+    </div>
+</div>
+
 
             <div className="mb-10 flex items-center gap-4">
                 <div className="h-[2px] flex-1 bg-[#e8ad55]"></div>
@@ -52,17 +61,17 @@ const Cakes = () => {
                             Торт
                         </h3>
                         <span className="text-[18px] font-bold text-gray-600">
-                            Narxi
+                        
                         </span>
                         <p className="text-2xl font-bold text-pink-900">
-                            60 000 so‘m
+                            200 000 сум
                         </p>
                     </div>
 
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                          Хрустящий безе Марожный крем малиновый начинка
+                         Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -82,17 +91,17 @@ const Cakes = () => {
                             Торт
                         </h3>
                         <span className="text-[18px] font-bold text-gray-600">
-                            Narxi
+                           
                         </span>
                         <p className="text-2xl font-bold text-pink-900">
-                            60 000 so‘m
+                            60 000 сум
                         </p>
                     </div>
 
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                            Un, tuxum, sut, kakao
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -112,17 +121,17 @@ const Cakes = () => {
                              Торт
                         </h3>
                         <span className="text-[18px] font-bold text-gray-600">
-                            Narxi
+                           
                         </span>
                         <p className="text-2xl font-bold text-pink-900">
-                            60 000 so‘m
+                            280 000 сум
                         </p>
                     </div>
 
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                            Mevalar, sut, qaymoq, shakar
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -152,7 +161,7 @@ const Cakes = () => {
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                           Пропитанный бискивит Нежнейший Марожный крем
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -186,7 +195,7 @@ const Cakes = () => {
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                            Нежная чизкейк основа с милка кремом и изысканнм покрытием из бельгийского шоколада
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -216,7 +225,7 @@ const Cakes = () => {
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                            Нежная чиз основа с фисташковой начинкой и изысканном покрытием из бельгийского шоколада
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -239,14 +248,14 @@ const Cakes = () => {
                            
                         </span>
                         <p className="text-2xl font-bold text-pink-900">
-                            55 000 so‘m
+                            320 000 сум
                         </p>
                     </div>
 
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                            Нежная чиз основа ореховом кремом и изысканном покрытием из натурального бельгийского шоколада
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -269,14 +278,14 @@ const Cakes = () => {
                            
                         </span>
                         <p className="text-2xl font-bold text-pink-900">
-                           100 000 
+                           100 000 сум
                         </p>
                     </div>
 
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                            Шоколадный бискивит Марожный крем сникерс,фруктовый начинка
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -295,17 +304,17 @@ const Cakes = () => {
                             Торт
                         </h3>
                         <span className="text-[18px] font-bold text-gray-600">
-                            Narxi
+                           
                         </span>
                         <p className="text-2xl font-bold text-pink-900">
-                            60 000 so‘m
+                            110 000 сум
                         </p>
                     </div>
 
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                            Основа из нежнейшего чиза и хрустящий начинка и изысканнм покрытием из натурального бельгийского шоколада
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -323,17 +332,17 @@ const Cakes = () => {
                             Торт
                         </h3>
                         <span className="text-[18px] font-bold text-gray-600">
-                            Narxi
+                           
                         </span>
                         <p className="text-2xl font-bold text-pink-900">
-                            55 000 so‘m
+                            100 000 сум
                         </p>
                     </div>
 
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                            Основа из нежнейшего чиза начинка из натурального мандарина покрытия из бельгийского шоколада
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -351,17 +360,17 @@ const Cakes = () => {
                              Торт
                         </h3>
                         <span className="text-[18px] font-bold text-gray-600">
-                            Narxi
+                           
                         </span>
                         <p className="text-2xl font-bold text-pink-900">
-                            40 000 so‘m 
+                            40 000 сум 
                         </p>
                     </div>
 
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                            Песочный тесто начинка безе и орех
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>
@@ -382,14 +391,14 @@ const Cakes = () => {
                            
                         </span>
                         <p className="text-2xl font-bold text-pink-900">
-                            150 000 so‘m
+                            180 000 сум
                         </p>
                     </div>
 
                     <div className="mt-4 rounded-2xl bg-pink-100 p-4">
                         <h3 className="font-bold text-pink-900">Tarkibi</h3>
                         <p className="mt-1 text-gray-700">
-                            Натуральный Белгийский шоколад Дубайский начинка 100% натуральная фисташковая паста весом 400 гр
+                           Марожный крем вкусная начинка дизайн на ваш вкус
                         </p>
                     </div>
                 </div>

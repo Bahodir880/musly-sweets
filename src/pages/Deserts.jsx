@@ -12,28 +12,26 @@ import rasm15 from '../assets/rasm15.jpg'
 import rasm16 from '../assets/rasm16.jpg'
 import rasm17 from '../assets/rasm17.jpg'
 import rasm18 from '../assets/rasm18.jpg'
+import rasm33 from '../assets/rasm33.jpg'
+
 const Deserts = () => {
   return (
     <div className="min-h-screen bg-[#fffaf8] px-4 py-10 md:px-10">
 
-      <div className="mx-auto mb-16 flex justify-center">
-        <p className="w-full max-w-[900px] rounded-4xl bg-pink-900 p-8 text-lg leading-8 text-white shadow-lg md:p-15 md:text-2xl">
-          Art Dessert — bu oddiy shirinliklardan farqli ravishda,
-          o‘zining betakror ko‘rinishi, nafis bezaklari va ajoyib
-          ta’mi bilan ajralib turadigan desertlar yo‘nalishidir.
-          Bu yo‘nalishda qandolatchilik va san’at birlashadi.
+      
+<div className='bg-pink-900 text-white p-4 sm:p-6 md:p-10 rounded-3xl flex flex-col md:flex-row gap-6 md:gap-8'>
+  <div className='w-full md:w-1/2'>
+    <p className='text-lg sm:text-2xl md:text-3xl lg:text-4xl mt-4 md:mt-10 lg:mt-20'>
+      Art Dessert — bu oddiy shirinliklardan farqli ravishda,      o‘zining betakror ko‘rinishi, nafis bezaklari va ajoyib          ta’mi bilan ajralib turadigan desertlar yo‘nalishidir.           Bu yo‘nalishda qandolatchilik va san’at birlashadi.
+      Har bir desertni tayyorlashda mahsulotlarning sifati,         ranglar uyg‘unligi, shakl, tekstura va ta’m muvozanatiga         e’tibor beriladi. Natijada nafaqat mazali, balki        dasturxonga o‘zgacha ko‘rk bag‘ishlaydigan shirinliklar       yaratiladi.
+      Art Dessert tug‘ilgan kunlar, bayramlar, oilaviy         uchrashuvlar, to‘ylar va boshqa maxsus tadbirlar uchun        mos keladi.
+    </p>
+  </div>
+  <div className='w-full md:w-1/2'>
+    <img className='rounded-2xl w-full h-64 sm:h-96 md:h-full md:min-h-[450px] object-cover' src={rasm33} alt="" />
+  </div>
+</div>
 
-          Har bir desertni tayyorlashda mahsulotlarning sifati,
-          ranglar uyg‘unligi, shakl, tekstura va ta’m muvozanatiga
-          e’tibor beriladi. Natijada nafaqat mazali, balki
-          dasturxonga o‘zgacha ko‘rk bag‘ishlaydigan shirinliklar
-          yaratiladi.
-
-          Art Dessert tug‘ilgan kunlar, bayramlar, oilaviy
-          uchrashuvlar, to‘ylar va boshqa maxsus tadbirlar uchun
-          mos keladi.
-        </p>
-      </div>
 
       <div className="mb-10 flex items-center gap-4">
         <div className="h-[2px] flex-1 bg-[#e8ad55]"></div>
@@ -62,7 +60,7 @@ const Deserts = () => {
               Art Dessert
             </h3>
             <span className="text-[18px] font-bold text-gray-600">
-              Narxi
+             
             </span>
             <p className="text-2xl font-bold text-pink-900">
               55 000 сум
@@ -89,10 +87,10 @@ const Deserts = () => {
 
           <div className="ml-2 mt-4">
             <h3 className="text-xl font-bold text-pink-900">
-              Kremli desert
+              Art Dessert
             </h3>
             <span className="text-[18px] font-bold text-gray-600">
-              Narxi
+             
             </span>
             <p className="text-2xl font-bold text-pink-900">
               55 000 сум
@@ -119,10 +117,10 @@ const Deserts = () => {
 
           <div className="ml-2 mt-4">
             <h3 className="text-xl font-bold text-pink-900">
-              Mevali desert
+               Art Dessert
             </h3>
             <span className="text-[18px] font-bold text-gray-600">
-              Narxi
+              
             </span>
             <p className="text-2xl font-bold text-pink-900">
               55 000 сум
@@ -149,10 +147,10 @@ const Deserts = () => {
 
           <div className="ml-2 mt-4">
             <h3 className="text-xl font-bold text-pink-900">
-              Shirin desert
+              Art Dessert
             </h3>
             <span className="text-[18px] font-bold text-gray-600">
-              Narxi
+             
             </span>
             <p className="text-2xl font-bold text-pink-900">
               55 000 сум
@@ -186,10 +184,10 @@ const Deserts = () => {
               Art Dessert
             </h3>
             <span className="text-[18px] font-bold text-gray-600">
-              Narxi
+             
             </span>
             <p className="text-2xl font-bold text-pink-900">
-              55 000 so‘m
+              55 000 сум
             </p>
           </div>
 
@@ -213,13 +211,13 @@ const Deserts = () => {
 
           <div className="ml-2 mt-4">
             <h3 className="text-xl font-bold text-pink-900">
-              Kremli desert
+              Art Dessert
             </h3>
             <span className="text-[18px] font-bold text-gray-600">
-              Narxi
+             
             </span>
             <p className="text-2xl font-bold text-pink-900">
-              65 000 so‘m
+              65 000 сум
             </p>
           </div>
 
@@ -243,13 +241,13 @@ const Deserts = () => {
 
           <div className="ml-2 mt-4">
             <h3 className="text-xl font-bold text-pink-900">
-              Mevali desert
+             Art Dessert
             </h3>
             <span className="text-[18px] font-bold text-gray-600">
-              Narxi
+              
             </span>
             <p className="text-2xl font-bold text-pink-900">
-              55 000 so‘m
+              55 000 сум
             </p>
           </div>
 
@@ -303,13 +301,13 @@ const Deserts = () => {
 
           <div className="ml-2 mt-4">
             <h3 className="text-xl font-bold text-pink-900">
-             Попкорн
+             Art Dessert
             </h3>
             <span className="text-[18px] font-bold text-gray-600">
               
             </span>
             <p className="text-2xl font-bold text-pink-900">
-              60 000 so‘m
+              60 000 сум
             </p>
           </div>
 
@@ -331,13 +329,13 @@ const Deserts = () => {
 
           <div className="ml-2 mt-4">
             <h3 className="text-xl font-bold text-pink-900">
-              
+               Art Dessert
             </h3>
             <span className="text-[18px] font-bold text-gray-600">
-              Narxi
+             
             </span>
             <p className="text-2xl font-bold text-pink-900">
-              55 000 so‘m
+              55 000 сум
             </p>
           </div>
 
@@ -359,13 +357,13 @@ const Deserts = () => {
 
           <div className="ml-2 mt-4">
             <h3 className="text-xl font-bold text-pink-900">
-              
+               Art Dessert
             </h3>
             <span className="text-[18px] font-bold text-gray-600">
-              Narxi
+             
             </span>
             <p className="text-2xl font-bold text-pink-900">
-              40 000 so‘m (10 штук)
+              40 000 сум (10 штук)
             </p>
           </div>
 
@@ -393,7 +391,7 @@ const Deserts = () => {
               
             </span>
             <p className="text-2xl font-bold text-pink-900">
-              150 000 so‘m
+              150 000 сум
             </p>
           </div>
 

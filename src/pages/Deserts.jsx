@@ -19,18 +19,20 @@ const Deserts = () => {
     <div className="min-h-screen bg-[#fffaf8] px-4 py-10 md:px-10">
 
       
+
 <div className='bg-pink-900 text-white p-4 sm:p-6 md:p-10 rounded-3xl flex flex-col md:flex-row gap-6 md:gap-8'>
   <div className='w-full md:w-1/2'>
-    <p className='text-lg sm:text-2xl md:text-3xl lg:text-4xl mt-4 md:mt-10 lg:mt-20'>
-      Art Dessert — bu oddiy shirinliklardan farqli ravishda,      o‘zining betakror ko‘rinishi, nafis bezaklari va ajoyib          ta’mi bilan ajralib turadigan desertlar yo‘nalishidir.           Bu yo‘nalishda qandolatchilik va san’at birlashadi.
+    <p className='text-lg sm:text-2xl md:text-3xl lg:text-4xl mt-4 md:mt-10 lg:mt-40'>
+      <p className='inline font-bold text-5xl'>Art Dessert </p> — bu oddiy shirinliklardan farqli ravishda,      o‘zining betakror ko‘rinishi, nafis bezaklari va ajoyib          ta’mi bilan ajralib turadigan desertlar yo‘nalishidir.           Bu yo‘nalishda qandolatchilik va san’at birlashadi.
       Har bir desertni tayyorlashda mahsulotlarning sifati,         ranglar uyg‘unligi, shakl, tekstura va ta’m muvozanatiga         e’tibor beriladi. Natijada nafaqat mazali, balki        dasturxonga o‘zgacha ko‘rk bag‘ishlaydigan shirinliklar       yaratiladi.
       Art Dessert tug‘ilgan kunlar, bayramlar, oilaviy         uchrashuvlar, to‘ylar va boshqa maxsus tadbirlar uchun        mos keladi.
     </p>
   </div>
   <div className='w-full md:w-1/2'>
-    <img className='rounded-2xl w-full h-64 sm:h-96 md:h-full md:min-h-[450px] object-cover' src={rasm33} alt="" />
+    <img className='rounded-2xl w-full h-64 sm:h-96 md:h-190 md:min-h-[450px] object-cover' src={rasm33} alt="" />
   </div>
 </div>
+
 
 
       <div className="mb-10 flex items-center gap-4">

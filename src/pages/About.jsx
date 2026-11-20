@@ -11,16 +11,15 @@ const About = () => {
         <div className="min-h-screen bg-[#fffaf8] px-4 py-10 md:px-10">
 
            
-<div className='bg-pink-900 text-white p-4 sm:p-6 md:p-10 rounded-3xl flex flex-col md:flex-row gap-6 md:gap-8'>
+<div className=' text-white p-4 sm:p-6 md:p-10 rounded-3xl flex flex-col md:flex-row gap-6 md:gap-8'>
     <div className='w-full md:w-1/2 mt-4 md:mt-10 lg:mt-20'>
       <p className='text-lg sm:text-2xl md:text-3xl lg:text-4xl'>
-        Art Dessert sovg'a to'plamlarining eng muhim jihatlaridan biri — ularning o'ziga xos dizaynidir. Shirinliklar ranglar uyg'unligi asosida tanlanib, atlas lentalar, dekorativ gullar, maxsus yozuvlar va nafis qadoqlar bilan bezatiladi. Har bir to'plam insonning didi, xohishi va sovg'a qilinadigan tadbirga mos ravishda tayyorlanishi mumkin.
-
-        Bunday shirinliklar tug'ilgan kun, yubiley, to'y, unashtiruv, nikoh marosimi, 8-mart, Yangi yil, Sevishganlar kuni va boshqa bayramlar uchun ajoyib sovg'a hisoblanadi. Shuningdek, Art Dessert to'plamlarini onajonlar, opa-singillar, do'stlar, ustozlar, hamkasblar va yaqin insonlarga sovg'a qilish mumkin.
-      </p>
+        <p className='inline font-bold text-5xl'>Shirinliklar nabori</p> — bu bir nechta turdagi mazali va chiroyli bezatilgan shirinliklarning bitta to‘plamga jamlanishidir. Bunday naborlar o‘zining nafis ko‘rinishi, turli xil ta’mlari va chiroyli qadoqlanishi bilan ajralib turadi.
+        Naborlar tug‘ilgan kunlar, bayramlar, to‘ylar, oilaviy uchrashuvlar va yaqin insonlarga sovg‘a qilish uchun juda mos keladi. Shuningdek, mijozning xohishiga ko‘ra, nabor tarkibi, dizayni, ranglari va qadoqlanishi individual tarzda tayyorlanishi mumkin.
+         U orqali yaqin insonlarga quvonch ulashish, bayramlarni yanada esda qolarli qilish va oddiy kunlarga ham shirin kayfiyat bag‘ishlash mumkin.</p>
     </div>
     <div className='w-full md:w-1/2'>
-      <img className='rounded-2xl w-full h-64 sm:h-96 md:h-full md:min-h-[450px] object-cover' src={rasm35} alt="" />
+      <img className='rounded-2xl w-full h-64 sm:h-96 md:h-190 md:min-h-[450px] object-cover' src={rasm35} alt="" />
     </div>
 </div>
         

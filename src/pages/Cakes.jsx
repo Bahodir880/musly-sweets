@@ -23,13 +23,13 @@ const Cakes = () => {
 <div className='bg-pink-900 text-white p-4 sm:p-6 md:p-10 rounded-3xl flex flex-col md:flex-row gap-6 md:gap-8'>
     <div className='w-full md:w-1/2 mt-4 md:mt-10 lg:mt-20'>
       <p className='text-lg sm:text-2xl md:text-3xl lg:text-4xl'>
-        Tort — qandolatchilik mahsulotlarining eng mashhur va keng tarqalgan turlaridan biri hisoblanadi. U turli xil xamir, krem, meva, shokolad, yong‘oq va boshqa mahsulotlardan tayyorlanadi. Tortlar o‘zining mazali ta'mi, chiroyli ko‘rinishi, yumshoqligi va xushbo‘y hidi bilan ajralib turadi.
+        <p className='inline font-bold text-5xl'>Tort</p> — qandolatchilik mahsulotlarining eng mashhur va keng tarqalgan turlaridan biri hisoblanadi. U turli xil xamir, krem, meva, shokolad, yong‘oq va boshqa mahsulotlardan tayyorlanadi. Tortlar o‘zining mazali ta'mi, chiroyli ko‘rinishi, yumshoqligi va xushbo‘y hidi bilan ajralib turadi.
 
         Tortlar qandolatchilik sanoatining muhim va keng tarqalgan mahsulotlaridan biridir. Ularni tayyorlashda xomashyoni to‘g‘ri tanlash, xamir va krem tayyorlash texnologiyasiga rioya qilish, pishirish, bezash hamda saqlash qoidalarini bilish zarur. Tortlar insonlarning turli bayram va marosimlariga o‘zgacha ko‘rk bag‘ishlaydi.
       </p>
     </div>
     <div className='w-full md:w-1/2'>
-      <img className='rounded-2xl w-full h-64 sm:h-96 md:h-full md:min-h-[450px] object-cover' src={rasm34} alt="" />
+      <img className='rounded-2xl w-full h-64 sm:h-96 md:h-190 md:min-h-[450px] object-cover' src={rasm34} alt="" />
     </div>
 </div>
 
